@@ -1,0 +1,103 @@
+.container {
+    margin: 0 auto;
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+}
+
+.header {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h2 {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+header {
+    width: 100%;
+    margin-top: 5px;
+
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+}
+
+.div1 {
+    padding: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid red;
+    color: white;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    padding-top: 10px;
+}
+
+.footer .f1 {
+    display: flex;
+}
+
+@media screen and (max-width:580px) {
+    .header img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .header {
+        padding-top: 10px;
+    }
+
+    .header h2 {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .nd p {
+        font-size: 10px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input,
+    textarea {
+        width: 70%;
+    }
+
+    .div1 {
+        padding: 0px;
+    }
+}
